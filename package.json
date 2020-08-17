@@ -1,0 +1,20 @@
+{
+  "name": "weathertxt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node send_sms.js",
+    "dev": "env-cmd -f ./config/dev.env node send_sms.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "openweather-apis": "^4.3.1",
+    "twilio": "^3.45.0"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0"
+  }
+}
